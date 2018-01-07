@@ -1,0 +1,31 @@
+{
+  "name": "hyperapp-rollup",
+  "version": "0.0.1",
+  "description": "Hyperapp Rollup Boilerplate + injection into html",
+  "scripts": {
+    "start": "rollup -c rollup.config.js -w",
+    "build-simple": "rollup -c rollup.config.prod.js",
+    "build": "rollup -c rollup.config.prod.js && postcss ./global.css > ./global.min.css && echo Starting REGPACK && regpack ./dist/app.js > ./dist/app.min.js && node inlineBundles.js"
+  },
+  "author": "drek",
+  "license": "MIT",
+  "dependencies": {
+    "hyperapp": "^0.15.1",
+    "hyperapp-transitions": "^0.10.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "cssnano": "^3.10.0",
+    "date-format": "^1.2.0",
+    "regpack": "^5.0.1",
+    "rollup": "^0.50.0",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-livereload": "^0.6.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-serve": "^0.4.2",
+    "rollup-plugin-uglify": "^2.0.1",
+    "uglify-es": "^3.3.4"
+  }
+}

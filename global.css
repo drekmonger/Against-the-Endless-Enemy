@@ -1,0 +1,109 @@
+body {
+    padding: 8px;
+    font-family: Tahoma;
+}
+
+h1 {
+    color: LightCoral;
+    text-shadow: -3px 3px 0 black, 1px -1px 0 black, 5px 5px 0 black, -2px -2px 0 black;
+    font-size: 60px;
+    margin: 0px;
+}
+
+button {
+    padding: 10px 30px;
+    border: 5px solid white;
+    border-radius: 4px;
+    font: bold 16px Tahoma;
+    color: white;
+    background: black;
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.2), -2px -2px 2px 0 rgba(0, 0, 0, 0.02);
+    transition: all 200ms;
+}
+
+button:hover {
+    background-color: DarkSlateGray;
+}
+
+button:focus {
+    outline: 0;
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0px 0px 2px 0 rgba(0, 0, 0, 0.2), 0px 0px 1px 0 rgba(0, 0, 0, 0.02);
+}
+
+.act {
+    position: absolute;
+    padding: 1px 1px;
+    font: 12px Tahoma;
+    border: 0px;
+    z-index: 10;
+    width: 50;
+}
+
+.act:hover {
+    font: 16px Tahoma;
+    border: 2px solid white;
+    z-index: 20;
+}
+
+.camp {
+    width: 700px;
+    height: 130px;
+}
+
+.camp:disabled {
+    color: lightgray;
+    background: grey;
+}
+
+.camph {
+    font: 32px Tahoma;
+    text-shadow: 1px 1px 0 black;
+}
+
+.campd {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: left;
+}
+
+.cc {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column nowrap;
+    border: 2px solid #A07178;
+    border-radius: 5px;
+    width: 106px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 2px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.ct {
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.cr {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    user-select: "none";
+}
+
+.ca {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.cam {
+    font: 10px Tahoma;
+    color: Gray;
+}
