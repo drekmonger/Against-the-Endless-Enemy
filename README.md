@@ -12,7 +12,7 @@ I did have some early setbacks. I started using [https://github.com/sveltejs/sve
 ## Stuff used to make this thing:
 
 * [https://github.com/hyperapp/hyperapp] Hyperapp, a microscopic framework
-* Rollup, babel (for JSX parsing only), and uglify-es for minifying.  
+* Rollup, babel (for JSX parsing only), cssnano for minifying the CSS, and uglify-es for minifying the JS.  
 * [https://github.com/Siorki/RegPack] RegPack for compression
 * [https://www.redblobgames.com/pathfinding/tower-defense/] This awesome tutorial for pathfinding with depth-first 
 * [https://github.com/jaxgeller/tweezer.js/] Tweezer (modified for my use case) for tweening values
