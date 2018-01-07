@@ -15,5 +15,5 @@ I did have some early setbacks. I started using [https://github.com/sveltejs/sve
 * [https://github.com/Siorki/RegPack] RegPack for compression
 * [https://www.redblobgames.com/pathfinding/tower-defense/] This awesome tutorial for pathfinding with depth-first 
 * [https://github.com/jaxgeller/tweezer.js/] Tweezer, modified, for tweening values
-* [http://game-icons.net/] Game-Icons for the SVG icons, which were modified with:
+* [http://game-icons.net/] Game-Icons for the SVG icons. Specifically, the icons I used came from Lorc.  They were modified with:
 * [https://inkscape.org/en/] Inkscape and then compressed with [https://jakearchibald.github.io/svgomg/] SVGOMG.
