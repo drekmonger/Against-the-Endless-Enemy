@@ -1,5 +1,5 @@
 # Against-the-Endless-Enemy
-entry for [http://gynvael.coldwind.pl/?id=66](Gynvael's Winter GameDev Challenge 2017).
+entry for [Gynvael's Winter GameDev Challenge 2017)](http://gynvael.coldwind.pl/?id=66).
 
 To play the game itself, download and run ./dist/index.html via Chrome. Or it can be downloaded from  [https://drive.google.com/file/d/1zXXWwCIPb-xUle5rTedBY_8Z3x9EE44X/view?usp=sharing]. The final packed version weighs 19.4KB. 
 
